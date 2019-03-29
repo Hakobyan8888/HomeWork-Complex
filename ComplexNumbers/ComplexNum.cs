@@ -70,7 +70,7 @@ namespace ComplexNumbers
             }
             else
             {
-                Answer = (complexNum1.Real + complexNum2.Real) + (complexNum1.Fake + complexNum2.Fake) * I;
+                Answer = (complexNum1.Real + complexNum2.Real) - (complexNum1.Fake + complexNum2.Fake) * I;
                 SAnswer = Answer.ToString();
                 return SAnswer;
             }
